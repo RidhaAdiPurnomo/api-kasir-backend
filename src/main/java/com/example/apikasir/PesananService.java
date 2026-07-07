@@ -19,6 +19,6 @@ public class PesananService {
 
         int subtotal = harga * jumlah;
 
-        return "Pesanan: " + jumlah + "x " + namaBarang + "Rp " + harga + "/porsi). Total: Rp " + subtotal;
+        return "Pesanan: " + jumlah + "x " + namaBarang + " Rp " + harga + "/porsi. Total: Rp " + subtotal;
     }
 }
